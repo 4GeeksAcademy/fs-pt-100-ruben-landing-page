@@ -9,3 +9,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-image: url(https://www.harrypotter.com/images/home/stars.png), linear-gradient(180deg, #0004dc, #3e457b 121.35%);
+    background-position: 51% 91%, 70%, bottom;
+    background-size: 2000px auto, 2000px auto, 100% 100%;
+    align-content: center;
+}
+#image {
+    object-fit: cover;
+    height: 300px;
+}
+.line {
+    height: 1px;
+    background-color: black;
+    margin: 0 -15px;
+    margin-bottom: 20px;
+}
